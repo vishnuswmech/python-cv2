@@ -1,0 +1,4 @@
+import cv2
+import numpy as np
+size= 600,600,3
+zero=np.zeros(size, dtype=np.uint8)
