@@ -1,0 +1,13 @@
+#Creating another same array(image) for horizontal concatenating
+size= 600,600,3
+Hconcate=np.zeros(size, dtype=np.uint8)
+Hconcate[0:200,0:200]=[255,153,51]
+Hconcate[0:200,200:400]=[0,0,0]
+Hconcate[0:200,400:600]=[0,255,255]
+Hconcate[200:400,0:200]=[204,0,204]
+Hconcate[200:400,200:400]=[0,255,128]
+Hconcate[200:400,400:600]=[0,0,255]
+Hconcate[400:600,0:200]=[0,102,204]
+Hconcate[400:600,200:400]=[51,153,255]
+Hconcate[400:600,400:600]=[0,153,0]
+```#Horizontal concatenating axis=1
